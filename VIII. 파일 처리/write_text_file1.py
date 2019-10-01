@@ -1,7 +1,7 @@
-f = open("file.txt", "w", encoding="utf-8")
+f = open("file.txt", "a") #a:append
 
-f.write("반갑다")
+f.write("Hello")
 f.write("\n")
-f.write("세상아")
+f.write("World")
 
 f.close()
